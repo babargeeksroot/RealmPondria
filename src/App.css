@@ -1,0 +1,33 @@
+.siteWrap{
+  background-image: url('./assets/siteWrap-O.jpg');
+  background-size: cover;
+  background-position: top center;
+}
+nav.customHeader {
+  padding: 67px 0 0px;
+  max-width: 1920px;
+  margin: 0 auto;
+  display: block;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+
+
+
+
+@media (min-width: 1400px){
+	.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+		max-width: 1450px !important;
+	}
+}
